@@ -7,6 +7,12 @@ const StyledDiv = styled.div`
     padding: 50px;
 `
 
+const StyledButton = styled.button`
+    background-color: indigo;
+    color: white;
+    font-size: 24px;
+`
+
 export default function Estilos2() {
 
     const [cont, setCont] = useState(0);
@@ -20,7 +26,7 @@ export default function Estilos2() {
     return (
         <StyledDiv>
             <p className={clases.join(' ')}>Contador: {cont}</p>
-            <button onClick={() => setCont(cont + 1)}>Incrementa</button>
+            <StyledButton onClick={() => setCont(cont + 1)}>Incrementa</StyledButton>
         </StyledDiv>
     );
 
