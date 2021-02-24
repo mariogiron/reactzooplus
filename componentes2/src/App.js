@@ -5,8 +5,11 @@ import './App.css';
 // import Problema1 from './components/Problema1';
 // import Problema2 from './components/Problema2';
 // import Suma from './components/Suma';
-import Condicionales from './components/Condicionales';
-import Listas from './components/Listas';
+// import Condicionales from './components/Condicionales';
+import Efectos from './components/Efectos';
+// import Listas from './components/Listas';
+import Users from './components/Users';
+import Scroll from './components/Scroll';
 
 class App extends Component {
 
@@ -14,11 +17,11 @@ class App extends Component {
     contador: 0
   };
 
-  constructor(props) {
-    super(props);
+  // constructor(props) {
+  //   super(props);
 
-    // this.onSumaFinalizada = this.onSumaFinalizada.bind(this);
-  }
+  //   // this.onSumaFinalizada = this.onSumaFinalizada.bind(this);
+  // }
 
   onSumaFinalizada = (resultado) => {
     console.log('Suma finalizada ' + resultado);
@@ -37,7 +40,68 @@ class App extends Component {
         <Formulario />*/}
         {/* <CicloVida /> */}
         {/* <Condicionales /> */}
-        <Listas />
+        {/* <Listas /> */}
+        {/* <Efectos /> */}
+        {/* <Users /> */}
+        <Scroll />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis, alias id modi sint harum rerum repudiandae dolor perspiciatis eos asperiores accusamus cupiditate corrupti quos aut. Molestiae voluptatem blanditiis rerum!
+        </p>
+
       </div>
     );
   }

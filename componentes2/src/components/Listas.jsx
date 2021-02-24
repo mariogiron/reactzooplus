@@ -32,7 +32,7 @@ class Listas extends Component {
     render() {
         return (
             <div className="contactos">
-                {this.state.contactos.map((contacto, index) =>
+                {(this.state.contactos || []).map((contacto, index) =>
                 (<div className="contacto" key={index} >
                     <h4 onClick={() => this.borrarContacto(index)}>
                         {contacto.nombre} {contacto.apellidos}
